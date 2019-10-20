@@ -1,0 +1,12 @@
+{
+  // typescriptをjavascriptのソースファイルに変える設定ファイル
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"]
+}
